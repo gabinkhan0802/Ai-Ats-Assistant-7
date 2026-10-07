@@ -25,7 +25,7 @@ from pypdf import PdfReader
 # ----------------------------------------------------------------------------
 # Model names change often. Override with the GEMINI_MODEL secret / env var
 # or the sidebar box if this default is ever retired.
-DEFAULT_MODEL = "gemini-3.7-flash"
+DEFAULT_MODEL = "gemini-3.8-flash"
 
 MAX_FILE_MB = 5
 MAX_CHARS = 30_000  # keeps the prompt small and cheap
